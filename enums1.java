@@ -1,3 +1,5 @@
+//javac enums1.java
+//java Main
 class Main {
     public static void main(String[] args) {
         enums1 player1 = new enums1(Difficulty.EASY);
