@@ -1,8 +1,8 @@
-class enums1 {
+class Main {
     public static void main(String[] args) {
-        Player player1 = new Player(Difficulty.EASY);
-        Player player2 = new Player(Difficulty.MEDIUM);
-        Player player3 = new Player(Difficulty.HARD);
+        enums1 player1 = new enums1(Difficulty.EASY);
+        enums1 player2 = new enums1(Difficulty.MEDIUM);
+        enums1 player3 = new enums1(Difficulty.HARD);
    }
 }
 enum Difficulty {
@@ -10,9 +10,9 @@ enum Difficulty {
     MEDIUM,
     HARD
 }
-public class Player{
+public class enums1{
    
-Player(Difficulty diff){
+enums1(Difficulty diff){
  switch(diff){
   case EASY:System.out.println("You have 3000 bullets");
   break;
